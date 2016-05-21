@@ -45,14 +45,15 @@ public class Usuario {
     }
 
     public Usuario() {
-        nombre = "Sin/Nombre";
-        contraseña = "1234";
-        edad = 18;
+        this.nombre = "Sin/Nombre";
+        this.contraseña = "1234";
+        this.edad = 18;
     }
 
     @Override
     public String toString() {
-        return "Usuario: " + " nombre: " + nombre + " contrase\u00f1a: " + contraseña + " edad: " + edad;
+        return "Usuario: " + "nombre: " + nombre + " contrase\u00f1a: "
+                + contraseña + " edad: " + edad;
     }
     
     
